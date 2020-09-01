@@ -1,6 +1,6 @@
 # Driver-Drowsiness-Detection  
   
-I am adding this <a href="https://guides.github.com/features/mastering-markdown/#:~:text=Markdown%20is%20a%20lightweight%20and%20easy-to-use%20syntax%20for,the%20Markdown%20format%20makes%20styled%20collaborative%20editing%20easy">link</a> in case you dont know how to write in Readme files. Wahtever notes or short summary you want to make, you can do it in Readme files associated with your name.  
+I am adding this <a href="https://guides.github.com/features/mastering-markdown/#:~:text=Markdown%20is%20a%20lightweight%20and%20easy-to-use%20syntax%20for,the%20Markdown%20format%20makes%20styled%20collaborative%20editing%20easy">link</a> in case you dont know how to write in Readme files. Whatever notes or short summary you want to make, you can do it in Readme files associated with your name.  
 
   
 https://www.sciencedirect.com/science/article/pii/S0001457517304347  
