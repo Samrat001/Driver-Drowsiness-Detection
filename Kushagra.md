@@ -45,3 +45,29 @@ For the autoencoder network the same input and target vectors as in the case of 
 **Conclusion and Future scope**
 100% positive classification result.
 More different images, with different drivers, in different positions and lighting conditions. Also the elimination of the cropping and down sampling stages of the image processing will be a goal for future research. 
+  
+# Paper 2  
+**Detecting Drowsy Driver Using Pulse Sensor**  
+**Abstract:**   
+This method focuses on **heart rate** by using infrared heart sensor or pulse sensor. Pulse wave signal is obtained from **LF/HF (low frequency to high frequency ratio)** which calculate HRV (heart rate variability=Variation in Time B/w heartbeats) frequency domain of the driver’s heart rate time series. The LF/HF ratio is **higher for awake or alert** state and **lower for drowsy state.**  
+  
+**Drowsiness Detection Technique**
+1. **Vehicle Based Measures**: Example movement of steering vehicle, pressure on gas pedal.  
+2. **Behavioural Based Measures**: Example facial movement including yawning, eye movement.  
+3. **Physiological Based Measures**: Physiological changes of driver from biosignals, such as the electrooculography (EOG), electroencephalogram (EEG) and electrocardiogram (ECG or EKG). It is better approach because sleep rhythm is strongly connected with brain and heart activities. But electrodes and wires cause discomfort.  
+  
+**Review of Heart Rate Signal Measurement**  
+ECG is a test that records the electrical activity of the heart. ECG can be done using non-invasive method (not involving use of electrodes). It is based on the principle of **photoplethysmography (PPG)** that uses two basic types, which are transmittance (light source and detector on opposite sides of tissue) and reflectance (light source and detector on same sides of tissue).  In this reflectance PPG is used.  
+When blood is pumped through your body, it gets squeezed into the capillary tissues, and the volume of those tissues increases very slightly. Then, between heart beats, the volume decreases. The change in volume effects the amount of light that will transmit through. This fluctuation is sensed with electronics. In this infrared LED and photodiode sensor is used to get ECG signal which is connected to Arduino microcontroller.   
+  
+**Experimental Results**
+<pre>
+	                                         Normal Condition(BPM)                            Drowsy Condition(BPM)
+For male drivers:	   	                      75-100                                               50-65
+For female drivers:                                   70-95                                                45-63
+</pre>
+In normal conditions HRV was high 0.700Hz.  
+In drowsiness condition HRV was low 0.183Hz. 
+  
+**Conclusion**  
+This project designed a system which can alert the driver by detecting heartbeat using pulse sensor. The sensor detects amount of blood flowing through driver’s finger and heart pulse wave is visualized using Processing. The LF/HF ratio shows a decreasing trends as drivers go from the state of being awake to being drowsy
